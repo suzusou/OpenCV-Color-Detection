@@ -51,10 +51,10 @@ public class MainActivity extends AppCompatActivity {
     private int red;
     private int green;
     private int blue;
-    private int totalcolor;
-    private int sumred = 0;
-    private int sumgreen = 0;
-    private int sumblue = 0;
+    private int totalColor;
+    private int sumRed = 0;
+    private int sumGreen = 0;
+    private int sumBlue = 0;
     private int average = 0;
 
     public BaseLoaderCallback mLoaderCallback = new BaseLoaderCallback(this) {
@@ -135,9 +135,9 @@ public class MainActivity extends AppCompatActivity {
             Bitmap bitmap = Bitmap.createBitmap(matPrevious.cols(), matPrevious.rows(), Bitmap.Config.ARGB_8888);
             Utils.matToBitmap(matPrevious, bitmap);
 
-            sumred=0;
-            sumblue=0;
-            sumgreen=0;
+            sumRed=0;
+            sumBlue=0;
+            sumGreen=0;
 
             for (int x = 0; x <= 160; x += 10) {
                 for (int y = 0; y <= 130; y += 10) {
@@ -145,15 +145,15 @@ public class MainActivity extends AppCompatActivity {
                     red = Color.red(pixel);
                     green = Color.green(pixel);
                     blue = Color.blue(pixel);
-                    sumred += red;
-                    sumgreen += green;
-                    sumblue += blue;
+                    sumRed += red;
+                    sumGreen += green;
+                    sumBlue += blue;
                 }
             }
 
-            Log.d("here", "ここ" + sumred + "   " + sumgreen + "   " + "   " + sumblue);
-            totalcolor = sumred + sumblue + sumgreen;
-            total += totalcolor;
+            Log.d("here", "ここ" + sumRed + "   " + sumGreen + "   " + "   " + sumBlue);
+            totalColor = sumRed + sumBlue + sumGreen;
+            total += totalColor;
             count++;
 
             if (count == 50) {
