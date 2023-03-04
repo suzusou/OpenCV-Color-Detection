@@ -1,5 +1,5 @@
 # OpenCVColorDetection
-This program uses OpenCV to process cameraX information.   
+This program uses OpenCV to process `cameraX information`.   
 # Use
 Keep taking the average of RGB and you can see it in the log.  
 Processing speed has been increased by cutting the library files by about one-third.
