@@ -2,8 +2,8 @@
   <a href="https://opencv.org/" rel="noopener" target="_blank"><img width="150" src="/docs/public/static/logo.svg" alt="OpenCV logo"></a>
 </p>
 
-<h1 align="center">MUI Core</h1>
-## OpenCVColorDetection
+<h1 align="center">OpenCVColorDetection</h1>
+
 This program uses OpenCV to process `cameraX information`.   
 ## Use
 Keep taking the average of RGB and you can see it in the log.  
