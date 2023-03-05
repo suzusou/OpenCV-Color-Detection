@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://opencv.org/" rel="noopener" target="_blank"><img width="150" src="/OpenCV_logo.svg" alt="OpenCV logo"></a>
+  <a href="https://beautiful-soup-4.readthedocs.io/en/latest/" rel="noopener" target="_blank"><img width="150" src="/OpenCV_logo.svg" alt="Beautiful-soup logo"></a>
 </p>
 
 <h1 align="center">OpenCV-Color-Detection</h1>
