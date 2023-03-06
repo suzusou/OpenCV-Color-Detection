@@ -33,7 +33,7 @@ At setTargetResolution(new Size(x, y)), set the resolution.
             image.close();
         }
 ``` 
-In this case, if you continue to take the average of the RGB, you can see it in the log.　　
+In this case, if you continue to take the average of the `RGB`, you can see it in the log.　　
 
 ## Difference
 Processing speed has been increased by cutting the library files by about `one-third`.
