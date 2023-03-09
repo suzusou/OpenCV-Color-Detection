@@ -6,6 +6,7 @@
 
 This program uses `OpenCV` to process `CameraX information`.   
 ## Setting
+MainActivity Path : /app/src/main/java/com/example/opencvcolordetection/
 ``` Java
 imageAnalysis = new ImageAnalysis.Builder().setTargetResolution(new Size(176, 144))
                             .setBackpressureStrategy(ImageAnalysis.STRATEGY_KEEP_ONLY_LATEST).build();
