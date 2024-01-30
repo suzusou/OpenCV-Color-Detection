@@ -5,6 +5,22 @@
 <h1 align="center">OpenCV-Color-Detection</h1>
 
 This program uses `OpenCV` to process `CameraX information`.   
+## Version
+### OpenCV Version 
+OpenCV 3.4.1  
+compileSdkVersion 31  
+buildToolsVersion "29.0.2"  
+minSdkVersion 28  
+targetSdkVersion 31  
+
+### Android Version   
+compileSdkVersion 31  
+buildToolsVersion "30.0.3"  
+minSdkVersion 28  
+targetSdkVersion 31    
+sourceCompatibility JavaVersion.VERSION_1_8  
+targetCompatibility JavaVersion.VERSION_1_8  
+
 ## Setting
 MainActivity Path : /app/src/main/java/com/example/opencvcolordetection/
 ``` Java
